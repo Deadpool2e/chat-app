@@ -60,7 +60,7 @@ const App=()=> {
                 fullWidth
                 style={{ backgroundColor: "#4CAF50", color: "#fff" }} 
               >
-                Enter Room
+                Join Room
               </Button>
             </Box>
           </Paper>
