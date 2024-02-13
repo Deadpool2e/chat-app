@@ -134,6 +134,7 @@ const Chat = ({ socket, username, room, setShowChat }) => {
           {messageList.length === 0 ? (
             <Typography variant="body1" align="center" sx={{
               color: "grey",
+              marginY:"50%"
             }}>
               No messages here, start chatting...
             </Typography>
