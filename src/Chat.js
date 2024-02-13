@@ -163,8 +163,8 @@ const Chat=({ socket, username, room, setShowChat }) =>{
                 sx={{
                   backgroundColor:
                     messageContent.author === username
-                      ? "#1fcbdde3"
-                      : "#d2d2d18a",
+                      ? "#2ad9eb"
+                      : "#e3e3e3",
                   borderRadius: 1,
                   p: 1,
                   maxWidth: "70%",
@@ -177,7 +177,7 @@ const Chat=({ socket, username, room, setShowChat }) =>{
                     position: 'absolute',
                     right:'-8px',
                     borderBottom: '10px solid transparent',
-                    borderLeft: '11px solid #1fcbdde3',
+                    borderLeft: '11px solid #2ad9eb',
                     transform: 'translateY(-80%)',
 
                   }:(index === 0 ||
@@ -186,7 +186,7 @@ const Chat=({ socket, username, room, setShowChat }) =>{
                     position: 'absolute',
                     left:'-8px',
                     borderBottom: '10px solid transparent',
-                    borderRight: '11px solid #d2d2d18a',
+                    borderRight: '11px solid #e3e3e3',
                     transform: 'translateY(-80%)',
 
                   }
