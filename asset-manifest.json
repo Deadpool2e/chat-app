@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Deadpool2e/chat-app/static/css/main.9c355163.css",
+    "main.js": "/Deadpool2e/chat-app/static/js/main.20adf949.js",
+    "static/js/592.123f176f.chunk.js": "/Deadpool2e/chat-app/static/js/592.123f176f.chunk.js",
+    "index.html": "/Deadpool2e/chat-app/index.html",
+    "main.9c355163.css.map": "/Deadpool2e/chat-app/static/css/main.9c355163.css.map",
+    "main.20adf949.js.map": "/Deadpool2e/chat-app/static/js/main.20adf949.js.map",
+    "592.123f176f.chunk.js.map": "/Deadpool2e/chat-app/static/js/592.123f176f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c355163.css",
+    "static/js/main.20adf949.js"
+  ]
+}
