@@ -132,7 +132,9 @@ const Chat = ({ socket, username, room, setShowChat }) => {
 
         <Box sx={{ flex: 1, overflowY: "auto", paddingX: 1 }}>
           {messageList.length === 0 ? (
-            <Typography variant="body1" align="center">
+            <Typography variant="body1" align="center" sx={{
+              color: "grey",
+            }}>
               No messages here, start chatting...
             </Typography>
           ) : (
